@@ -16,6 +16,6 @@ for tweets in soup.find_all('div', class_='content'):
   print()
   i += 1
   if i == 11:
-    break
+    break 
   
   
