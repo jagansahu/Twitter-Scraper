@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import urllib
 import urllib.request
 
-theurl = 'https://twitter.com/itsawesomepixs'
+theurl = 'https://twitter.com/UWaterlooNews'
 source = urllib.request.urlopen(theurl)
 soup = BeautifulSoup(source, 'html.parser')
 
