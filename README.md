@@ -1,6 +1,6 @@
 # Twitter Scraper
 
-A Twitter Scraper which outputs a given number of tweets that you input AND saves data to a Microsoft Excel Spreadsheet or any compatibile spreadsheet program.
+A Twitter Scraper which outputs a given number of tweets that you input AND immediately saves data to a Microsoft Excel Spreadsheet or any compatibile spreadsheet program.
 
 Steps:
 1) Input any Twitter user.
