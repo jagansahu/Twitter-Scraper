@@ -1,3 +1,1 @@
-# WebScraper
-
-[![Run on Repl.it](https://repl.it/badge/github/jagansahu/WebScraper)](https://repl.it/github/jagansahu/WebScraper)
+A Twitter Scraper which outputs a given number of tweets that YOU tell it to output
