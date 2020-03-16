@@ -6,7 +6,7 @@ import csv
 #asks for twitter user 
 while True: 
   try:
-    t_user = input("Enter the username of the Twitter User you wish to view tweets of.\n (MUST BE A VALID TWITTER USER)\n");
+    t_user = input("Enter the username of the Twitter User you wish to view tweets of.\n (MUST BE A VALID PUBLIC TWITTER USER)\n");
     theurl = 'https://twitter.com/' + t_user
     source = urllib.request.urlopen(theurl)
   except:
@@ -29,7 +29,6 @@ while True:
     break
 
 i = 1
-substring = "These Tweets are protected"
 print(str(numb) + " MOST RECENT TWEETS AND RETWEETS OF\n" + name + "\n")
 
 file = open("list_of_tweets.csv", "w") #opens csv file
